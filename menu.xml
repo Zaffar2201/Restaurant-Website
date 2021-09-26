@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="menu.xsl"?>
+<!DOCTYPE menu
+[
+<!ELEMENT menu (section+)>
+<!ELEMENT section (mainImage,image,title,description,subSection)>
+<!ELEMENT mainImage (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT subSection (sub*)>
+<!ELEMENT sub (subTitle,subDesctiption,price)>
+<!ELEMENT subTitle (#PCDATA)>
+<!ELEMENT subDesctiption (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<menu>
+    <section>
+        <mainImage>risotto1</mainImage>
+        <image>risotto2 risotto3</image>
+        <title>RISOTTO</title>
+        <description>RICE PASTA - PENNE OR TAGLIATELLE - AVAILABLE UPON REQUEST 100% gluten free</description>
+        <subSection>
+            <sub>
+                <subTitle>ALL'ISOLANA IN "PENTOLINO"</subTitle>
+                <subDesctiption>RISOTTO WITH PORK LOIN, FRESH PANCETTA, GRANA PADANO PDO CHEESE, ROSEMARY AND A HINT OF CINNAMO. THE TYPICAL RISOTTO FROM VERONA SERVED IN A SMALL POT</subDesctiption>
+                <price>$ 26,00</price>
+            </sub>
+            <sub>
+                <subTitle>VEGETARIANO</subTitle>
+                <subDesctiption>RISOTTO WITH MIXED VEGGIES AND GRANA PADANO PDO CHEESE</subDesctiption>
+                <price>$  18.00</price>
+            </sub>
+            <sub>
+                <subTitle>SPINACI E ASIAGO D.O.P., RICETTA DI MAMMA ROSETTA</subTitle>
+                <subDesctiption>RISOTTO WITH FRESH SPINACH, ASIAGO PDO CHEESE AND GRANA PADANO PDO CHEESE, FROM THE ORIGINAL RECIPE OF MAMMA ROSETTA</subDesctiption>
+                <price>$  21.00</price>
+            </sub>
+            <sub>
+                <subTitle>FUNGHI MISTI</subTitle>
+                <subDesctiption>RISOTTO WITH MIXED WILD ORGANIC MUSHROOMS, PARSLEY AND GRANA PADANO PDO CHEESE </subDesctiption>
+                <price>$ 26,00</price>
+            </sub>
+            <sub>
+                <subTitle>RADICCHIO, GORGONZOLA E NOCI </subTitle>
+                <subDesctiption>RISOTTO WITH RED CHICORY, WALNUTS, GORGONZOLA AND GRANA PADANO PDO CHEESE</subDesctiption>
+                <price>$ 22.00</price>
+            </sub>
+            <sub>
+                <subTitle>POLLO BACON AND ASPARAGI</subTitle>
+                <subDesctiption>RISOTTO WITH CHICKEN, BACON, ASPARAGUS AND GRANA PADANO PDO CHEESE</subDesctiption>
+                <price>$ 22.00</price>
+            </sub>
+            <sub>
+                <subTitle>ALL'ISOLANA IN "PENTOLINO"</subTitle>
+                <subDesctiption>RISOTTO WITH PORK LOIN, FRESH PANCETTA, GRANA PADANO PDO CHEESE, ROSEMARY AND A HINT OF CINNAMO. THE TYPICAL RISOTTO FROM VERONA SERVED IN A SMALL POT</subDesctiption>
+                <price>$ 22.00</price>
+            </sub>
+            <sub>
+                <subTitle>CACIO E PEPE</subTitle>
+                <subDesctiption>RISOTTO WITH CACIO CHEESE, FRESH PEPPER AND GRANA PADANO PDO CHEESE</subDesctiption>
+                <price>$ 26,00</price>
+            </sub>
+        </subSection>
+    </section>
+
+    <section>
+        <mainImage>antipasti</mainImage>
+        <image>antipasti2 antipasti3</image>
+        <title>ANTIPASTI</title>
+        <description>RICE-BASED APPETIZERS gluten free</description>
+        <subSection>
+            <sub>
+                <subTitle>BRUSCHETTA DI RISO</subTitle>
+                <subDesctiption>RICE BRUSCHETTA BREAD WITH GARLIC, ORGANIC TOMATOES AND FRESH BASIL</subDesctiption>
+                <price>$ 11.00</price>
+            </sub>
+            <sub>
+                <subTitle>SOUP OF THE DAY</subTitle>
+                <subDesctiption>SOUP OF THE DAY WITH BROWN RICE</subDesctiption>
+                <price>$ 12.00</price>
+            </sub>
+            <sub>
+                <subTitle>ARANCINI DI RISO DEL GIORNO</subTitle>
+                <subDesctiption>RICE ARANCINI OF THE DAY, SERVED WITH TOMATO SAUCE</subDesctiption>
+                <price>$ 13.00</price>
+            </sub>
+            <sub>
+                <subTitle>PIADINA DI RISO</subTitle>
+                <subDesctiption>RICE/CORN FLAT BREAD WITH SALAME, PANCETTA AND ITALIAN PROSCIUTTO</subDesctiption>
+                <price>$ 13.00</price>
+            </sub>
+            <sub>
+                <subTitle>POLENTA DI RISO FRITTA CON MONTE VERONESE E FUNGHI</subTitle>
+                <subDesctiption>FRIED RICE POLENTA WITH MUSHROOMS AND MONTE VERONESE CHEESE</subDesctiption>
+                <price>$ 13.00</price>
+            </sub>
+            <sub>
+                <subTitle>POLENTA DI RISO NERO CON GORGONZOLA O FUNGHI</subTitle>
+                <subDesctiption>SOFT BLACK BEPPINO RICE POLENTA WITH YOUR CHOICE OF GORGONZOLA CHEESE OR MIXED WILD MUSHROOMS</subDesctiption>
+                <price>$ 13.00 </price>
+            </sub>
+            <sub>
+                <subTitle>CARPACCIO DI BRESAOLA</subTitle>
+                <subDesctiption>BRESAOLA CARPACCIO SERVED WITH ARUGULA, BROWN RICE AND SHAVED GRANA PADANO PDO CHEESE</subDesctiption>
+                <price>$ 14,00</price>
+            </sub>
+            <sub>
+                <subTitle>CARPACCIO DI SALMONE</subTitle>
+                <subDesctiption>SMOKED-SALMON CARPACCIO WITH BROWN RICE, BABY ARUGOLA, CRISPY RICE-CRACKERS AND LEMON VINAGRETTE</subDesctiption>
+                <price>$ 14.00 </price>
+            </sub>
+        </subSection>
+    </section>
+
+    <section>
+        <mainImage>alternativa</mainImage>
+        <image>alternativa2 alternativa3</image>
+        <title>IN ALTERNATIVA</title>
+        <description>RICE PASTA - PENNE OR TAGLIATELLE - AVAILABLE UPON REQUEST 100% gluten free</description>
+        <subSection>
+            <sub>
+                <subTitle>BRUSCHETTA DI RISO</subTitle>
+                <subDesctiption>BEEF BURGER ON GLUTEN-FREE BUN, BACON, TOMATO, AMERICAN CHEESE, CARAMELIZED ONIONS WITH FRENCH FRIES OR POLENTA FRIES</subDesctiption>
+                <price>$ 24.00</price>
+            </sub>
+            <sub>
+                <subTitle>SALMONE GRIGLIATO</subTitle>
+                <subDesctiption>GRILLED SALMON FILLET, WITH GREENS, WHOLEGRAIN RICE SALAD, CHERRY TOMATOES AND ROBIOLA CHEESE</subDesctiption>
+                <price>$ 26.00</price>
+            </sub>
+            <sub>
+                <subTitle>NEW YORK STRIP STEAK</subTitle>
+                <subDesctiption>GRILLED SIRLOIN STEAK COATED IN RICE ESPRESSO, SERVED MEDIUM RARE WITH RICE POLENTA FRIES</subDesctiption>
+                <price>$ 29.00</price>
+            </sub>
+            <sub>
+                <subTitle>WILD BOAR STEW</subTitle>
+                <subDesctiption>WILD BOAR STEW WITH TOMATO, ONION, CARROTS AND GARLIC, SERVED WITH OUR SOFT RICE-POLENTA AND SAFFRON</subDesctiption>
+                <price>$ 29.00</price>
+            </sub>
+        </subSection>
+    </section>
+
+    <section>
+        <mainImage>insalate</mainImage>
+        <image>insalate2 insalate3</image>
+        <title>INSALATE</title>
+        <description>SALADS gluten free</description>
+        <subSection>
+            <sub>
+                <subTitle>RUCOLA E GRANA</subTitle>
+                <subDesctiption>RUGULA, SHAVED GRANA PADANO PDO CHEESE, ORGANIC CHERRY TOMATOES, FRESH MOZZARELLA AND OREGANO</subDesctiption>
+                <price>$ 12,00</price>
+            </sub>
+            <sub>
+                <subTitle>CAESAR SALAD</subTitle>
+                <subDesctiption>ROMAINE LETTUCE, GLUTEN-FREE CROUTONS, GRANA PADANO PDO CHEESE AND CAESAR DRESSING</subDesctiption>
+                <price>$ 12.00</price>
+            </sub>
+            <sub>
+                <subTitle>SPINACINI E FINOCCHIO</subTitle>
+                <subDesctiption>BABY SPINACH, TOMATOES, SHAVED FENNEL, FONTINA CHEESE AND PECANS</subDesctiption>
+                <price>$ 13.00</price>
+            </sub>
+            <sub>
+                <subTitle>AVOCADO E PERE</subTitle>
+                <subDesctiption>MIXED GREENS, TOMATOES, AVOCADO, PEAR AND GRANA PADANO PDO CHEESE</subDesctiption>
+                <price>$ 13.00</price>
+            </sub>
+        </subSection>
+    </section>
+
+    <section>
+        <mainImage>dessert3</mainImage>
+        <image>dessert2 dessert4</image>
+        <title>DESSERTS</title>
+        <description>RICE-BASED DESSERTS gluten free</description>
+        <subSection>
+            <sub>
+                <subTitle>CREPE ALLA NUTELLA</subTitle>
+                <subDesctiption>RICE FLOUR CREPE WITH NUTELLA AND TOPPED WITH HAZELNUTS</subDesctiption>
+                <price>$ 10,00</price>
+            </sub>
+            <sub>
+                <subTitle>TIRAMISU</subTitle>
+                <subDesctiption>TIRAMISU' MADE WITH RICE SPONGE CAKE</subDesctiption>
+                <price>$ 9.00</price>
+            </sub>
+            <sub>
+                <subTitle>SEMIFREDDO</subTitle>
+                <subDesctiption>HOME-MADE STRAWBERRY ICE CREAM WITH MERINGUE AND PUFFED RICE, SERVED ON VANILLA SAUCE </subDesctiption>
+                <price>$ 9.00</price>
+            </sub>
+            <sub>
+                <subTitle>TORTINO AL CIOCCOLATO</subTitle>
+                <subDesctiption>WARM CHOCOLATE CAKE SERVED WITH VANILLA SAUCE (AVAILABLE DAIRY-FREE)</subDesctiption>
+                <price>$ 9.00</price>
+            </sub>
+            <sub>
+                <subTitle>PROFITEROLES</subTitle>
+                <subDesctiption>RICE FLOUR PASTRY FILLED WITH MASCARPONE CHEESE, WHIPPED CREAM AND TOPPED WITH CHOCOLATE SAUCE</subDesctiption>
+                <price>$ 10.00</price>
+            </sub>
+             <sub>
+                <subTitle>GELATO DI RISO</subTitle>
+                <subDesctiption>VANILLA GELATO WHIT BROWN RICE AND TOPPED WITH CARAMEL SAUCE</subDesctiption>
+                <price>$ 9.00</price>
+            </sub>
+        </subSection>
+    </section>
+
+    <section>
+        <mainImage>wine3</mainImage>
+        <image>wine2 wine4</image>
+        <title>WINE LIST</title>
+        <description>only the best Wines from Verona ONLY WINE AND BEER</description>
+        <subSection>
+            <sub>
+                <title>MACULAN, 2017 Veneto Chardonnay</title>
+                <price>$ 34,00</price>
+            </sub>
+            <sub>
+                <title>ZENATO, 2017 Pinot Grigio "Delle Venezie"</title>
+                <price>$ 35,00</price>
+            </sub>
+            <sub>
+                <title>ZENATO, 2017 Lugana "San Benedetto"</title>
+                <price>$ 37,00</price>
+            </sub>
+            <sub>
+                <title>PERLA DEL GARDA, 2016 Lugana</title>
+                <price>$ 44,00</price>
+            </sub>
+            <sub>
+                <title>CA DEI FRATI, 2017 Lugana 'I Frati'</title>
+                <price>$ 46,00</price>
+            </sub>
+            <sub>
+                <title>CORTE MOSCHINA, 2014 Soave "Roncathe"</title>
+                <price>$ 32,00</price>
+            </sub>
+            <sub>
+                <title>CANTINA DI SOAVE, 2014 Soave "Rocca Sveva"</title>
+                <price>$ 35,00</price>
+            </sub>
+            <sub>
+                <title>BERTANI, 2016 Soave "Sereole" 100% Garganega</title>
+                <price>$ 37,00</price>
+            </sub>
+
+        </subSection>
+    </section>
+
+
+
+</menu>

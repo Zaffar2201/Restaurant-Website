@@ -1,0 +1,62 @@
+@font-face{
+	font-family:'Unica One';
+	src: url("../fonts/UnicaOne-Regular.ttf");
+}
+@font-face{
+	font-family:'Playball';
+	src: url("../fonts/Playball-Regular.ttf");
+}
+@font-face{
+	font-family: 'Amatic';
+	src: url("../fonts/AmaticSC-Regular.ttf");
+}
+
+@font-face{
+	font-family: 'Cookie';
+	src: url("../fonts/Cookie-Regular.ttf");
+}
+
+@font-face{
+	font-family: 'Delius';
+	src: url("../fonts/Delius-Regular.ttf");
+}
+
+@font-face{
+	font-family: 'GrandHotel';
+	src: url("../fonts/GrandHotel-Regular.ttf");
+}
+
+@font-face{
+	font-family: 'JustAnotherHand';
+	src: url("../fonts/JustAnotherHand-Regular.ttf");
+}
+
+@font-face{
+	font-family: 'KaushanScript';
+	src: url("../fonts/KaushanScript-Regular.ttf");
+}
+
+@font-face{
+	font-family: 'Mali';
+	src: url("../fonts/Mali-SemiBoldItalic.ttf");
+}
+
+@font-face{
+	font-family: 'MarckScript';
+	src: url("../fonts/MarckScript-Regular.ttf");
+}
+
+@font-face{
+	font-family: 'MeriendaOne';
+	src: url("../fonts/MeriendaOne-Regular.ttf");
+}
+
+@font-face{
+	font-family: 'Sriracha';
+	src: url("../fonts/Sriracha-Regular.ttf");
+}
+
+@font-face{
+	font-family: 'Tangerine';
+	src: url("../fonts/Tangerine-Regular.ttf");
+}

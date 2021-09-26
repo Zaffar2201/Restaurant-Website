@@ -1,0 +1,252 @@
+html, body{
+    padding: 0;
+    overflow:hidden;
+
+}
+.page{ 
+    display: none; padding: 0 0.5em; 
+    overflow-x: hidden;
+    background-color: #eee;
+}
+
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("../res/loader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#left{
+    left:0px; 
+}
+
+#right{
+    left:100vw;
+    background-color: #eee;
+}
+
+.moveElement{
+    position: absolute;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    top: 0px;
+    transition: left 1000ms ease-out;
+    background-color: #eee;
+    will-change: left;
+    height: 100vh;
+}
+
+/*----------------- Section ------------------*/
+.section{
+    float: left;
+    width: 28%;
+    position: relative;
+    margin: 0.1%;
+    border-radius: 0 0 3px 3px;
+    cursor: pointer;
+    box-shadow: none;
+    transition: background-color 500ms ease-out, color 500ms ease-out, box-shadow 500ms ease-out;
+    background-color: white;
+    padding: 0 1.5% 1.5% 1.5%;
+    margin: 3% 1% 1% 1%;
+    color: #202020;
+}
+.section:hover{
+    background-color: transparent;
+    color: black;
+    box-shadow: 0px 7px 7px 0px #0003;
+}
+.sectionImage{
+    width: 100%;
+    position: relative;
+    top: -3vh;
+    box-shadow: 0px 7px 7px 0px #0003;
+    border-radius: 2px 2px 0 0;
+}
+.sectionBottom{
+    position: relative;
+    top: 0;
+}
+.sectionDescription{
+    font-family: MeriendaOne;
+    color: gray; 
+}
+.sectionTitle{
+    text-align: center;
+    padding: 1em 0 1em 0;
+    font-family: KaushanScript;
+    font-size: 1.4em;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+.sectionSubs{
+    display:none;
+}
+.rightSection{
+    float: left;
+    width: calc(48% - 1px);
+    position: relative;
+    padding: 1em 1% 1em 1%;
+    transition: transform 250ms ease-out, background-color 1000ms ease-out, color 500ms ease-in;
+    display: block;
+    min-height: 20vh;
+}
+.rightSection:nth-child(even){
+    border-left: 1px solid lightgrey;
+}
+.rightSection:last-child{
+    min-height: 0;
+    cursor: pointer;
+    background-color: lightgrey;
+    width: calc(98% - 2px);
+    text-align: center;
+}
+.rightSection:hover{
+    background-color: #ffb06c;
+    color: white;
+}
+#rightBody{
+    background-color: white;
+    margin: 2em;
+    position: relative;
+}
+.rightSectionTitle{
+    font-size: 1.4em;
+    display: block;
+    font-family: Sriracha;
+}
+.rightSectionDesription{
+    padding: 0.5em 1em 0.5em 1em;
+    color: rgba(0,0,0,0.75);
+    display: block;
+    font-family:MeriendaOne;
+    color: grey;
+}
+.rightSectionPrice{
+    text-align: right;
+    display: block;
+}
+#rightImage{
+    width: 48%;
+    height: 100%;
+    display: block;
+    float: none;
+    left: 50%;
+    position: relative;
+    top: -3vh;
+    box-shadow: 0px 7px 7px 0px #0003;
+}
+#rightTitle{
+    position: relative;
+    background-color: #ffb06c;
+    padding: 0.7em;
+    font-size: 1.2em;
+    text-align: center;
+    width: 25vw;
+    word-wrap: break-word;
+    color: white;
+    left: calc((100vw - 48vw - 2em)/4);
+    font-family: KaushanScript;
+    text-transform: uppercase;
+}
+#rightContent{
+    overflow: auto;
+    background-color: #eee;
+}
+#rightLeft{
+    position: absolute;
+    top: -3vh;
+    width: 50%;
+}
+#rightDescription{
+    padding: 6vh 0 0 0;
+    text-align: center;
+    width: 25vw;
+    color: #6cbaff;
+}
+/*------------------ Right Caroussel -----------------------*/
+#rightCaroussel{
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+    padding: 1em;
+}
+.rightCarousselImageContainer{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+.rightCarousselImage{
+    width: 100%;
+    position: absolute;
+    animation: scroll 10000ms ease-out infinite; 
+    will-change: left;
+}
+.rightCarousselImage#rightImage2{
+    animation-delay: 5000ms;
+    left: 100%;
+    opacity: 0;
+}
+.rightCarousselImageDescription{
+    font-family: JustAnotherHand;
+}
+
+@keyframes scroll{
+    0%{
+        left: 100%;
+        opacity: 1;
+    }
+    25%{
+        left: 0px;
+    }
+    50%{
+        left: 0px;
+    }
+    75%{
+        left: -100%;
+        opacity: 1;
+    }
+    76%{
+        left: -100%;
+        opacity: 0;
+    }
+    99%{
+        left: 100%;
+        opacity: 0;
+    }
+    100%{
+        left: 100%;
+        opacity: 1;
+    }
+}
+/*-------------- header ---------------*/
+#header{
+    position: relative; 
+}
+#content{
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+}
+#mainTitle.header{
+    top: 0;
+    position: absolute;
+    right: 0%;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    font-size: 2em;
+    background-color: #00000080;
+    padding: 0.5em;
+    width: -moz-fit-content;
+    left: unset;
+}
